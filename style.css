@@ -1,167 +1,25 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  background: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/* Hero Section */
-.hero-section {
-  padding: 60px 20px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-  background: #1e1ea8;
-  padding: 40px;
-  border-radius: 20px;
-  color: #fff;
-}
-
-/* Navbar */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 50px;
+    background-color: #2f239b;
 }
 
-.logo {
-  font-weight: bold;
-  font-size: 20px;
+.hero-section {
+    background-color: #2f239b;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
+.card {
+    background-color: #f8f9fa;
 }
 
-.nav-links a {
-  color: #ddd;
-  text-decoration: none;
-  font-size: 14px;
+.btn-danger {
+    background-color: #ff4d6d;
+    border: none;
 }
 
-.purchase-btn {
-  background: #ff4d6d;
-  padding: 8px 18px;
-  border-radius: 20px;
-}
-
-/* Hero Layout */
-.hero-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-}
-
-.hero-text {
-  flex: 1;
-}
-
-.hero-text h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-
-.hero-text p {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 25px;
-  color: #e0e0ff;
-}
-
-.learn-btn {
-  background: #ff4d6d;
-  padding: 10px 20px;
-  border-radius: 20px;
-}
-
-/* Form Card */
-.form-card {
-  flex: 1;
-  background: #f4f4f4;
-  color: #000;
-  padding: 30px;
-  border-radius: 20px;
-  max-width: 400px;
-}
-
-.form-card h3 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.form-card input {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 15px;
-  border: none;
-  border-radius: 20px;
-  background: #e5e5e5;
-}
-
-.checkbox {
-  font-size: 15px;
-  margin-bottom: 25px;
-  align-items:center;
-  display: flex;
-  gap: 8px;
-}
-
-.btn {
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  color: #fff;
-}
-
-.sign-btn {
-  width: 100%;
-  padding: 12px;
-  border-radius: 25px;
-  background: #1e1ea8;
-  margin-bottom: 10px;
-}
-
-.google-btn {
-  width: 100%;
-  padding: 12px;
-  border-radius: 25px;
-  background: #5c5cff;
-}
-
-.signin-link {
-  text-align: center;
-  font-size: 12px;
-  margin-top: 10px;
-}
-
-.signin-link a {
-  color: green;
-  text-decoration: none;
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .form-card {
-    max-width: 100%;
-  }
+.btn-danger:hover {
+    background-color: #ff1f4b;
 }
